@@ -2,22 +2,35 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Museum of war</title>
+        <title>Kyiv Museum of war</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
     <nav>
+        <!-- created navigation bar-->
         <div class="navigation" style="text-align: center;">
-        <a href="">Main</a>
-        <a href="">Our colection</a>
-        <a href="">History</a>
-        <a href="">Contacts</a>
+         <ul>
+           <li><a href="">Main</a> </li>
+           <li><a href="">Our colection</a> </li>
+           <li><a href="">History</a></li>
+           <li><a href="">Contacts</a></li>
+        </ul>
         </div>
     </nav>
+
+    <!-- wraped main content into div -->
     <div class="content">
-        <h1 style="text-align: center;">Kyiv Museum of war</h1>
+        <p>
+            <br>
+            <br>
+            <br>
+        </p>
+        <h1 id="name" style = "text-align: center;"  >Kyiv Museum of war</h1>
         <h3>What you will find inside</h3>
-<!-- this is a comment -->
+
         <p class="about_museum">
          The Kyiv War Museum in Ukraine is dedicated to commemorating and exploring the history of war and its impact on the country
           — particularly the period of the Second World War and recent conflicts.
@@ -30,31 +43,55 @@
     <div class="images" style="text-align: center;">
         <img id="monument" src="images/bg.png" alt="photo of monument" >
     </div> 
-    <video controls>
-       <source src="National Museum of the History of Ukraine in the Second World War, EMYA2024 Nominee.mp4" 
-      type="video/mp4">
-       Your browser does not support this video
-    </source>
-    </video>
 
 
-    <div class="first_img" >
-    <p > </p>
-    <img src="images/photo_children.png" alt="first_image" style="width: 250px; height: 200px; ">
+
+<div class="images_row">
+    <div class="first_img image_box" >
+           <p > The National Museum of the History of Ukraine in the Second World War is one
+             of the largest museums in the country, dedicated to preserving the memory of war
+              and its impact on the Ukrainian people. Its main goal is to honor the courage and
+               suffering of those who fought for freedom and to remind visitors of the true cost of peace.
+             The museum tells the story not only of the Second World War but also of modern military conflicts in which Ukraine continues to defend its independence. </p>
+           <img src="images/photo_children.png" alt="first_image" style="width: 250px; height: 200px; ">
     </div>
-It the best choice if you want to spend time interesting.
- The museum is both educational, documenting history,
- showing artifacts and engaging with current events and public memory.
-    <div class="second_img" >
-        <p></p>
+
+
+    <div class="second_img image_box" >
+        <p>It the best choice if you want to spend time interesting.
+            The museum is both educational, documenting history,
+            showing artifacts and engaging with current events and public memory.</p>
         <img src="images/photo_big_knife.png" alt="second_image" style="width: 250px; height: 200px;">
     </div>
 
-    <div class="third_img" >
-        <p>The dominant feature of the entire complex is the tallest monument in Europe, 102 meters high, 
+        <div class="third_img image_box" >
+            <p>The dominant feature of the entire complex is the tallest monument in Europe, 102 meters high, 
             "Motherland", the pedestal of which houses the museum's Main Building.</p>
-        <img src="images/full_view_of_monument.png.webp" alt="second_image"  style="width: 250px; height: 200px;">
+            <img src="images/full_view_of_monument.png.webp" alt="second_image" style="width: 250px; height: 200px;">
+        </div>
     </div>
+    
+     <div id="video">
+        <h3>About us</h3>
+        <video controls>
+         <source src="National Museum of the History of Ukraine in the Second World War, EMYA2024 Nominee.mp4" 
+         type="video/mp4">
+              Your browser does not support this video
+         </source>
+         </video>
+    </div>
+
+   <h3>Find Us</h3>
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.771395464469!2d30.56033677687909!3d50.426517471591996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf76fb53f3d7%3A0xee2de90672f6d60e!2sNational%20Museum%20of%20the%20History%20of%20Ukraine%20in%20the%20Second%20World%20War!5e0!3m2!1sen!2sua!4v1731499143000!5m2!1sen!2sua"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
 <footer>
     <p> Our Address: Lavrska Street, 27, Kyiv, Ukraine, 02000</p>
 </footer>
@@ -64,7 +101,7 @@ It the best choice if you want to spend time interesting.
 </html>
 
 <!-- 1. name of the museum + -->
-<!-- 2. photo --> 
+<!-- 2. photo +    -->       
 
 
 
